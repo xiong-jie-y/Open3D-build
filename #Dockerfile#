@@ -95,7 +95,6 @@ RUN git clone --recursive https://github.com/intel-isl/Open3D \
              -DBUILD_PYTORCH_OPS=ON \
              -DBUNDLE_OPEN3D_ML=ON \
              -DOPEN3D_ML_ROOT=../Open3D-ML \
-            #  -DCMAKE_FIND_DEBUG_MODE=ON \
              ..
 
 RUN cd /Open3D/build \
